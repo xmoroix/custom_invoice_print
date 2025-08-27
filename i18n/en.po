@@ -1,0 +1,295 @@
+# English translation for custom_invoice_print module
+# Copyright (C) 2025
+#
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Language-Team: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: custom_invoice_print
+#: model:ir.actions.report,name:custom_invoice_print.action_print_clinic_invoice
+#: model:ir.ui.menu,name:custom_invoice_print.report_clinic_invoice
+msgid "Print Clinic Invoice"
+msgstr "Print Clinic Invoice"
+
+#. module: custom_invoice_print
+#: model:ir.actions.report,name:custom_invoice_print.action_print_client_invoice
+#: model:ir.ui.menu,name:custom_invoice_print.report_client_invoice
+msgid "Print Client Invoice"
+msgstr "Print Client Invoice"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Product"
+msgstr "Product"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+msgid "Service"
+msgstr "Service"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+msgid "Quantity"
+msgstr "Quantity"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+msgid "Unit Price"
+msgstr "Unit Price"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+msgid "Taxes"
+msgstr "Taxes"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+msgid "Amount"
+msgstr "Amount"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+msgid "Total Price"
+msgstr "Total Price"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+msgid "Amount in Words:"
+msgstr "Amount in Words:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+msgid "Disc.%"
+msgstr "Disc.%"
+
+#. module: custom_invoice_print
+#: model:ir.actions.report,name:custom_invoice_print.action_print_client_quotation
+msgid "Print Client Quotation"
+msgstr "Print Client Quotation"
+
+#. module: custom_invoice_print
+#: model:ir.actions.report,name:custom_invoice_print.action_print_clinic_quotation
+msgid "Print Clinic Quotation"
+msgstr "Print Clinic Quotation"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Shipping Address:"
+msgstr "Shipping Address:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Tax ID"
+msgstr "Tax ID"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Invoice"
+msgstr "Invoice"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Draft Invoice"
+msgstr "Draft Invoice"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Cancelled Invoice"
+msgstr "Cancelled Invoice"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Credit Note"
+msgstr "Credit Note"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Vendor Credit Note"
+msgstr "Vendor Credit Note"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Vendor Bill"
+msgstr "Vendor Bill"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Invoice Date:"
+msgstr "Invoice Date:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Credit Note Date:"
+msgstr "Credit Note Date:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Receipt Date:"
+msgstr "Receipt Date:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Date:"
+msgstr "Date:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Due Date:"
+msgstr "Due Date:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Source:"
+msgstr "Source:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Customer Code:"
+msgstr "Customer Code:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Reference:"
+msgstr "Reference:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Amount Due"
+msgstr "Amount Due"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Due Date"
+msgstr "Due Date"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Discount"
+msgstr "Discount"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Incoterm:"
+msgstr "Incoterm:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Scan me with your banking app."
+msgstr "Scan me with your banking app."
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
+msgid "Paid on"
+msgstr "Paid on"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_quotation_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_quotation_template
+msgid "Quotation"
+msgstr "Quotation"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_quotation_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_quotation_template
+msgid "Quotation Date:"
+msgstr "Quotation Date:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_quotation_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_quotation_template
+msgid "Expiration Date:"
+msgstr "Expiration Date:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_quotation_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_quotation_template
+msgid "Salesperson:"
+msgstr "Salesperson:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_quotation_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_quotation_template
+msgid "Your Reference:"
+msgstr "Your Reference:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_quotation_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_quotation_template
+msgid "Our Reference:"
+msgstr "Our Reference:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_quotation_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_quotation_template
+msgid "Delivery Address:"
+msgstr "Delivery Address:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_quotation_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_quotation_template
+msgid "Invoice Address:"
+msgstr "Invoice Address:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_quotation_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_quotation_template
+msgid "Total"
+msgstr "Total"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_quotation_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_quotation_template
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_quotation_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_quotation_template
+msgid "Valid until"
+msgstr "Valid until"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_quotation_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_quotation_template
+msgid "Order Date:"
+msgstr "Order Date:"
+
+#. module: custom_invoice_print
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_quotation_template
+#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_quotation_template
+msgid "Expected Date:"
+msgstr "Expected Date:"

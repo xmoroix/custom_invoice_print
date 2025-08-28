@@ -304,6 +304,11 @@ msgid "Paid on"
 msgstr "Payé le"
 
 #. module: custom_invoice_print
+#: model:ir.actions.report,name:custom_invoice_print.action_print_clinic_invoice
+msgid "Print Clinic Invoice"
+msgstr "Imprimer Facture Clinique"
+
+#. module: custom_invoice_print
 #: model:ir.actions.report,name:custom_invoice_print.action_print_client_invoice
 msgid "Print Client Invoice"
 msgstr "Imprimer Facture Client"
@@ -314,20 +319,9 @@ msgid "Print Client Quotation"
 msgstr "Imprimer Devis Client"
 
 #. module: custom_invoice_print
-#: model:ir.actions.report,name:custom_invoice_print.action_print_clinic_invoice
-msgid "Print Clinic Invoice"
-msgstr "Imprimer Facture Clinique"
-
-#. module: custom_invoice_print
 #: model:ir.actions.report,name:custom_invoice_print.action_print_clinic_quotation
 msgid "Print Clinic Quotation"
 msgstr "Imprimer Devis Clinique"
-
-#. module: custom_invoice_print
-#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_quotation_template
-#: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_quotation_template
-msgid "Quotation"
-msgstr "Devis"
 
 #. module: custom_invoice_print
 #: model:ir.model,name:custom_invoice_print.model_sale_order

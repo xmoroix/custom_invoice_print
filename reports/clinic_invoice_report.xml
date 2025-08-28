@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 
-    <template id="report_clinic_invoice_template">
+    <template id="report_clinic_invoice">
         <t t-call="web.html_container">
             <t t-foreach="docs" t-as="o">
-                <t t-call="web.external_layout">
-                    <t t-set="o" t-value="o.with_context(lang=o.partner_id.lang or 'en_US')"/>
+                <t t-set="lang" t-value="o.partner_id.lang"/>
+                <t t-call="custom_invoice_print.report_clinic_invoice_template" t-lang="lang"/>
+            </t>
+        </t>
+    </template>
+
+    <template id="report_clinic_invoice_template">
+        <t t-call="web.external_layout">
+                    <t t-set="o" t-value="o.with_context(lang=lang)"/>
                     <t t-set="forced_vat" t-value="o.fiscal_position_id.foreign_vat"/> <!-- So that it appears in the footer of the report instead of the company VAT if it's set -->
                     <div class="row">
                         <t t-if="o.partner_shipping_id and (o.partner_shipping_id != o.partner_id)">
@@ -264,8 +271,6 @@
                         </div>
                         </div>
                     </div>
-                </t>
-            </t>
         </t>
     </template>
 
@@ -273,8 +278,10 @@
         <field name="name">Print Clinic Invoice</field>
         <field name="model">account.move</field>
         <field name="report_type">qweb-pdf</field>
-        <field name="report_name">custom_invoice_print.report_clinic_invoice_template</field>
+        <field name="report_name">custom_invoice_print.report_clinic_invoice</field>
         <field name="report_file">custom_invoice_print.report_clinic_invoice</field>
+        <field name="print_report_name">(object._get_report_base_filename())</field>
+        <field name="attachment">(object.state == 'posted') and ((object.name or 'INV').replace('/','_')+'.pdf')</field>
         <field name="binding_model_id" ref="account.model_account_move"/>
         <field name="binding_type">report</field>
         <field name="paperformat_id" ref="base.paperformat_euro"/>

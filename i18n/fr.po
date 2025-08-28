@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0-20240826\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 23:25+0000\n"
-"PO-Revision-Date: 2025-08-27 23:25+0000\n"
+"POT-Creation-Date: 2025-08-27 21:12+0000\n"
+"PO-Revision-Date: 2025-08-27 21:12+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -239,6 +239,26 @@ msgid "Cancelled Quotation"
 msgstr "Devis Annulé"
 
 #. module: custom_invoice_print
+#: model:ir.actions.report,name:custom_invoice_print.report_client_invoice
+msgid "Client Invoice"
+msgstr "Facture Client"
+
+#. module: custom_invoice_print
+#: model:ir.actions.report,name:custom_invoice_print.report_client_quotation
+msgid "Client Quotation"
+msgstr "Devis Client"
+
+#. module: custom_invoice_print
+#: model:ir.actions.report,name:custom_invoice_print.report_clinic_invoice
+msgid "Clinic Invoice"
+msgstr "Facture Clinique"
+
+#. module: custom_invoice_print
+#: model:ir.actions.report,name:custom_invoice_print.report_clinic_quotation
+msgid "Clinic Quotation"
+msgstr "Devis Clinique"
+
+#. module: custom_invoice_print
 #: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_client_invoice_template
 #: model_terms:ir.ui.view,arch_db:custom_invoice_print.report_clinic_invoice_template
 msgid "Credit Note"
@@ -284,22 +304,22 @@ msgid "Paid on"
 msgstr "Payé le"
 
 #. module: custom_invoice_print
-#: model:ir.actions.report,name:custom_invoice_print.report_client_invoice
+#: model:ir.actions.report,name:custom_invoice_print.action_print_client_invoice
 msgid "Print Client Invoice"
 msgstr "Imprimer Facture Client"
 
 #. module: custom_invoice_print
-#: model:ir.actions.report,name:custom_invoice_print.report_client_quotation
+#: model:ir.actions.report,name:custom_invoice_print.action_print_client_quotation
 msgid "Print Client Quotation"
 msgstr "Imprimer Devis Client"
 
 #. module: custom_invoice_print
-#: model:ir.actions.report,name:custom_invoice_print.report_clinic_invoice
+#: model:ir.actions.report,name:custom_invoice_print.action_print_clinic_invoice
 msgid "Print Clinic Invoice"
 msgstr "Imprimer Facture Clinique"
 
 #. module: custom_invoice_print
-#: model:ir.actions.report,name:custom_invoice_print.report_clinic_quotation
+#: model:ir.actions.report,name:custom_invoice_print.action_print_clinic_quotation
 msgid "Print Clinic Quotation"
 msgstr "Imprimer Devis Clinique"
 

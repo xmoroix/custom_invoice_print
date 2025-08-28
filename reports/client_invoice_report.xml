@@ -5,7 +5,7 @@
         <t t-call="web.html_container">
             <t t-foreach="docs" t-as="o">
                 <t t-call="web.external_layout">
-                    <t t-set="o" t-value="o.with_context(lang=lang)"/>
+                    <t t-set="o" t-value="o.with_context(lang=o.partner_id.lang or 'en_US')"/>
                     <t t-set="forced_vat" t-value="o.fiscal_position_id.foreign_vat"/> <!-- So that it appears in the footer of the report instead of the company VAT if it's set -->
                     <div class="row">
                         <t t-if="o.partner_shipping_id and (o.partner_shipping_id != o.partner_id)">
@@ -22,7 +22,7 @@
                                     <address class="mb-0" t-field="o.partner_id" t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;address&quot;, &quot;name&quot;], &quot;no_marker&quot;: True}"/>
                                     <div t-if="o.partner_id.vat" id="partner_vat_address_not_same_as_shipping">
                                         <t t-if="o.company_id.account_fiscal_country_id.vat_label" t-esc="o.company_id.account_fiscal_country_id.vat_label" id="inv_tax_id_label"/>
-                                        <t t-else="">Tax ID</t>: <span t-field="o.partner_id.vat"/>
+                                        <t t-else="" t-out="env['ir.translation']._('Tax ID')"/>: <span t-field="o.partner_id.vat"/>
                                     </div>
                                 </t>
                             </div>
@@ -33,7 +33,7 @@
                                     <address class="mb-0" t-field="o.partner_id" t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;address&quot;, &quot;name&quot;], &quot;no_marker&quot;: True}"/>
                                     <div t-if="o.partner_id.vat" id="partner_vat_address_same_as_shipping">
                                         <t t-if="o.company_id.account_fiscal_country_id.vat_label" t-esc="o.company_id.account_fiscal_country_id.vat_label" id="inv_tax_id_label"/>
-                                        <t t-else="">Tax ID</t>: <span t-field="o.partner_id.vat"/>
+                                        <t t-else="" t-out="env['ir.translation']._('Tax ID')"/>: <span t-field="o.partner_id.vat"/>
                                     </div>
                                 </t>
                             </div>
@@ -44,7 +44,7 @@
                                     <address class="mb-0" t-field="o.partner_id" t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;address&quot;, &quot;name&quot;], &quot;no_marker&quot;: True}"/>
                                     <div t-if="o.partner_id.vat" id="partner_vat_no_shipping">
                                         <t t-if="o.company_id.account_fiscal_country_id.vat_label" t-esc="o.company_id.account_fiscal_country_id.vat_label" id="inv_tax_id_label"/>
-                                        <t t-else="">Tax ID</t>: <span t-field="o.partner_id.vat"/>
+                                        <t t-else="" t-out="env['ir.translation']._('Tax ID')"/>: <span t-field="o.partner_id.vat"/>
                                     </div>
                                 </t>
                             </div>
